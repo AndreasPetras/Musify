@@ -1,0 +1,45 @@
+﻿@model Musify.ViewModels.AlbumFormViewModel
+@{
+    ViewBag.Title = "Create";
+}
+
+
+<div class="container">
+    @using (Html.BeginForm(Model.Action, "Albums", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <h4>@Model.Heading</h4>
+
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.ID)
+        @Html.HiddenFor(m => m.Thumbnail)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Title)
+            @Html.TextBoxFor(model => model.Title, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+            Release Date
+            @Html.EditorFor(model => model.ReleaseDate, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.ReleaseDate, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form=group">
+            Cover
+            <input type="file" name="ImageFile" />
+        </div>
+
+        <div class="form-group">
+            Artist
+            @Html.DropDownListFor(model => model.ArtistId, new SelectList(Model.Artists, "ID", "Name"), "Select Artist", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.ArtistId, "", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+            Genre
+            @Html.DropDownListFor(model => model.GenreId, new SelectList(Model.Genres, "ID", "Name"), "Select Genre", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.GenreId, "", new { @class = "text-danger" })
+        </div>
+
+        <button type="submit" class="btn btn-default btn-hover">Save</button>
+    }
+</div>

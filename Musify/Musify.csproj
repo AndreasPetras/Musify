@@ -242,33 +242,33 @@
     <Compile Include="Interfaces\ISongRepository.cs" />
     <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Interfaces\IUserRepository.cs" />
-    <Compile Include="Migrations\202209061832145_Initial.cs" />
-    <Compile Include="Migrations\202209061832145_Initial.Designer.cs">
-      <DependentUpon>202209061832145_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\202411301832145_Initial.cs" />
+    <Compile Include="Migrations\202411301832145_Initial.Designer.cs">
+      <DependentUpon>202411301832145_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202209061852256_Models.cs" />
-    <Compile Include="Migrations\202209061852256_Models.Designer.cs">
-      <DependentUpon>202209061852256_Models.cs</DependentUpon>
+    <Compile Include="Migrations\202412061852256_Models.cs" />
+    <Compile Include="Migrations\202412061852256_Models.Designer.cs">
+      <DependentUpon>202412061852256_Models.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202209081157058_SongsImage.cs" />
-    <Compile Include="Migrations\202209081157058_SongsImage.Designer.cs">
-      <DependentUpon>202209081157058_SongsImage.cs</DependentUpon>
+    <Compile Include="Migrations\202412201157058_SongsImage.cs" />
+    <Compile Include="Migrations\202412201157058_SongsImage.Designer.cs">
+      <DependentUpon>202412201157058_SongsImage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202209101343396_TransactionTable.cs" />
-    <Compile Include="Migrations\202209101343396_TransactionTable.Designer.cs">
-      <DependentUpon>202209101343396_TransactionTable.cs</DependentUpon>
+    <Compile Include="Migrations\202412291343396_TransactionTable.cs" />
+    <Compile Include="Migrations\202412291343396_TransactionTable.Designer.cs">
+      <DependentUpon>202412291343396_TransactionTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202209111440306_ChangeSongModel.cs" />
-    <Compile Include="Migrations\202209111440306_ChangeSongModel.Designer.cs">
-      <DependentUpon>202209111440306_ChangeSongModel.cs</DependentUpon>
+    <Compile Include="Migrations\202501021440306_ChangeSongModel.cs" />
+    <Compile Include="Migrations\202501021440306_ChangeSongModel.Designer.cs">
+      <DependentUpon>202501021440306_ChangeSongModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202209121326155_RemovePayment.cs" />
-    <Compile Include="Migrations\202209121326155_RemovePayment.Designer.cs">
-      <DependentUpon>202209121326155_RemovePayment.cs</DependentUpon>
+    <Compile Include="Migrations\202501071326155_RemovePayment.cs" />
+    <Compile Include="Migrations\202501071326155_RemovePayment.Designer.cs">
+      <DependentUpon>202501071326155_RemovePayment.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202209131233371_HasPaid.cs" />
-    <Compile Include="Migrations\202209131233371_HasPaid.Designer.cs">
-      <DependentUpon>202209131233371_HasPaid.cs</DependentUpon>
+    <Compile Include="Migrations\202501091233371_HasPaid.cs" />
+    <Compile Include="Migrations\202501091233371_HasPaid.Designer.cs">
+      <DependentUpon>202501091233371_HasPaid.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -447,26 +447,26 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202209061832145_Initial.resx">
-      <DependentUpon>202209061832145_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202411301832145_Initial.resx">
+      <DependentUpon>202411301832145_Initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202209061852256_Models.resx">
-      <DependentUpon>202209061852256_Models.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202412061852256_Models.resx">
+      <DependentUpon>202412061852256_Models.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202209081157058_SongsImage.resx">
-      <DependentUpon>202209081157058_SongsImage.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202412201157058_SongsImage.resx">
+      <DependentUpon>202412201157058_SongsImage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202209101343396_TransactionTable.resx">
-      <DependentUpon>202209101343396_TransactionTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202412291343396_TransactionTable.resx">
+      <DependentUpon>202412291343396_TransactionTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202209111440306_ChangeSongModel.resx">
-      <DependentUpon>202209111440306_ChangeSongModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202501021440306_ChangeSongModel.resx">
+      <DependentUpon>202501021440306_ChangeSongModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202209121326155_RemovePayment.resx">
-      <DependentUpon>202209121326155_RemovePayment.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202501071326155_RemovePayment.resx">
+      <DependentUpon>202501071326155_RemovePayment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202209131233371_HasPaid.resx">
-      <DependentUpon>202209131233371_HasPaid.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202501091233371_HasPaid.resx">
+      <DependentUpon>202501091233371_HasPaid.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -27,7 +27,7 @@
  admin area.Επιπλέον μπορείτε να κάνετε register ένα νέο χρήση μέσω της επιλογής login και στη συνέχεια να πρα-
  γματοποιήσετε μια εικονική πληρωμή για το premium subsricption με τη χρήση του paypal sandbox.Απλά πατήστε 
  paypal checkout και στα στοιχεία που θα σας ζητάει η paypal θα δώσετε email: sb-tfwdj36752527@personal.example.com
- και password: w,5i3E#l και θα επιλέξετε VISA ως τροπο πληρωμης.Πατάτε checkout και είστε πλέον premium χρήστης.
+ και password:w,5i3E#l και θα επιλέξετε VISA ως τροπο πληρωμης.Πατάτε checkout και είστε πλέον premium χρήστης.
  
  Ευχαριστώ για το χρόνο σας,
  Με εκτίμηση,
